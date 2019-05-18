@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+/*===== HEADER======
+====================
+==================== */
+header{
+    position: relative;
+    overflow: hidden;
+    background: url(img/back.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+    height: 400px;
+}
+.nav-sticky{
+    background-color: #333333;
+    height: 40px;
+}
+.nav{
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #cfcfcf;
+    font-family: "Quicksand";
+    font-size: 110%;
+    font-weight: 500;
+}
+.nav li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+/*===== HEADER======
+====================
+==================== */
+
+.box-info{
+    z-index: 20;
+    position: relative;
+    padding: 30px 50px 500px 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 1px 5px 5px  #888888;
+    margin-top: -100px;
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    margin-left: 400px;
+    /* ========== */
+   
+}
+.info-img img{
+    width: 35%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+.info-text{
+    padding: 0;
+    overflow: hidden;
+    text-align: left;
+}
+.info-text span{
+    font-family: "Quicksand";
+    font-weight: 300;
+    font-size: 50px;
+}
+.info-text a{
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: 50px;
+
+}
+.info-text #work{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+}
+.info{
+    margin-top: 30px;
+}
+.info span{
+    font-size: 20px;
+    
+}
+.info a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #9da0a7;
+    font-weight: 400;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    margin-bottom: 13px;
+    list-style: none;
+    padding: 0;
+}
+.list-title{
+    display: block;
+    width: 120px;
+    float: left;
+    color: #333333;
+    font-size: 18px;
+    font-family: "Quicksand";
+    text-transform: uppercase;
+}
+.cont{
+    display: block;
+    margin-left: 125px;
+    font-size: 15px;
+    color: #9da0a7;
+}
+.box-info h2{
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Quicksand";
+    font-weight: 400;
+}
+.social{
+    text-align: center;
+    margin-top: 30px;
+}
+.button{
+    cursor: pointer;
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+.button:hover{
+    border: 2px solid #333333;
+    background-color: white;
+}
+.social a{
+    text-decoration: none;
+    font-size: 50px;
+    color: #333333;
+    margin-left: 15px;
+}
+#fb:hover{
+    color: rgb(7, 66, 134);
+    transform: scale(1.1);
+}
+#ytb:hover{
+    color:red;
+    transform: scale(1.1);
+}
+#sky:hover{
+    color:rgb(4, 136, 177);
+    transform: scale(1.1);
+}
+/*====== MY SKILL===== */
+/*====== MY SKILL===== */
+.skill-letf{
+    display: inline;
+}
+.skill h2{
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: 200%;
+}
+.container {
+    width: 28%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    margin-left: 400px;
+  }
+.skill p{
+    margin-left: 400px;
+    font-family: "Quicksand";
+    font-weight: 500;
+}
+  .skills {
+    text-align: right; /* Right-align text */
+    padding: 2px; /* Add some padding */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 90%; background-color: #4CAF50;font-family: "Quicksand";} /* Green */
+  .css {width: 80%; background-color: #2196F3;font-family: "Quicksand";} /* Blue */
+  .js {width: 65%; background-color: #f44336;font-family: "Quicksand";} /* Red */
+  .php {width: 75%; background-color: #92017f;font-family: "Quicksand";} /* Dark Grey */
+
+/* SKILL CIRLCE */
+.skill-right{
+
+    position: relative;
+    display: inline;
+}
+#bars {
+	margin: 2em auto;
+	max-width: 960px;
+	overflow: hidden;
+}
+
+.bar {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.bar h3 {
+	font-size: 1.4em;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
+}
+/* SKILL CIRCLE */
+/*====== MY SKILL===== */
+/*====== MY SKILL===== */
